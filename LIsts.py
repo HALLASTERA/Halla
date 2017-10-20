@@ -1,0 +1,25 @@
+cities = ['bryanks','Almati', 'luhanks', 'Moscow', 'Kiev']
+print(cities)
+print(len(cities))
+print(cities[2])
+print(cities[-2])
+print(cities[2].title())
+print(cities[2].upper())
+cities[3] = 'Orel'
+print(cities)
+cities.append('Domodedovo')
+print(cities)
+cities.append('Novosib')
+print(cities)
+cities.insert(3, 'Militopol')
+print(cities)
+
+del cities[3]
+print(cities)
+cities.remove('Kiev')
+print(cities)
+deleted_city = cities.pop()
+print("Deleted city is: " + deleted_city)
+print(cities)
+cities.reverse()
+print(cities)
